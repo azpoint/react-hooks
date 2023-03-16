@@ -9,10 +9,13 @@ import UseMemoExample from './components/UseMemoExample';
 
 import UseCallbackExample from './components/UseCallbackExample';
 
+import CustomHookExample1 from './components/CustomHookExample1';
+import CustomHookExample2 from './components/CustomHookExample2';
+
 function App() {
   return (
     <div className="container mt-5">
-      <UseCallbackExample/>
+      <CustomHookExample2/>
     </div>
   );
 }
